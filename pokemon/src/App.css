@@ -1,0 +1,22 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.app-container .list i {
+    margin-right: 10px;
+}
+
+.app-container .list .item {
+    display: flex;
+    align-items: center;
+}
+
+.app-container .list .item .item-title {
+    flex-grow: 1;
+}
+
+.add-item-form {
+    padding: 20px;
+}
